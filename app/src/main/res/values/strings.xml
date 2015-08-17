@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">RxStockStreams</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_watchlist">WatchlistActivity</string>
+
+    <string name="hello_world">Hello world!</string>
 </resources>

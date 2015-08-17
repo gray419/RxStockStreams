@@ -10,14 +10,16 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.graywolf.rxstockstreams.MainActivity"
+            android:name="com.graywolf.rxstockstreams.StreamActivity"
             android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.graywolf.rxstockstreams.WatchlistActivity"
+            android:label="@string/title_activity_watchlist" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
