@@ -41,7 +41,7 @@ public class WatchlistAdapter extends RecyclerView.Adapter<WatchlistAdapter.View
         holder.title.setText(s.Title);
         if(mDetails.containsKey(s.Symbol)){
             SymbolDetail detail = mDetails.get(s.Symbol);
-            holder.price.setText(String.format("%s", detail.Price));
+            holder.price.setText(String.format("$%.2f", detail.Price));
         }
     }
 
