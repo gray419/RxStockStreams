@@ -6,7 +6,9 @@
 /build
 /captures
 
-.idea/*
-*.xml
+/bin
+/gen
 
+*.xml
 *.iml
+.idea/
