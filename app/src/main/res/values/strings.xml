@@ -2,4 +2,5 @@
     <string name="app_name">RxStockStreams</string>
     <string name="action_settings">Settings</string>s
     <string name="title_activity_streams">Streams</string>
+    <string name="new_string">New String</string>
 </resources>
