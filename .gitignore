@@ -5,3 +5,10 @@
 .DS_Store
 /build
 /captures
+
+/bin
+/gen
+
+*.xml
+*.iml
+.idea/
